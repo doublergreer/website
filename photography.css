@@ -1,0 +1,23 @@
+h2 {
+    font-weight: 300;
+    line-height: 1.5;
+    color: black; 
+    font-size: 2em;
+    text-align: center;
+    font-family: sans-serif;
+}
+.photos{
+    display: grid;
+    align-content: center;
+    flex-wrap: wrap;
+
+}
+.vert{
+    margin-top: 40px;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+}
+.thumbnail{
+    border: 2.5px solid black;
+}

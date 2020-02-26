@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Ryan</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    </head>
+    <body>
+        <h1>Fill in the array</h1>
+        <script>
+            var array = ["1", "2"];
+            var i;
+            document.write(array[0]);
+            document.write(array[1]);
+
+            for(i = 2; array[i-1] != "stop" && array[i-1] != "Stop" && array[i-1] != "STOP"; i++)
+            {
+//73.78.156.238
+                array[i] = prompt("Value for " + i + " in the array:");
+                document.write(array[i] + "\n");
+            }
+        </script>
+    </body>
+</html>
